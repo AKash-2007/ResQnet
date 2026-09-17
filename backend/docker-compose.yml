@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  # PostgreSQL 16 with PostGIS extension
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: resqnet_postgis
+    environment:
+      POSTGRES_USER: resqnet
+      POSTGRES_PASSWORD: resqnet_secret
+      POSTGRES_DB: resqnet_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgis_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U resqnet -d resqnet_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # FastAPI Backend Service
+  backend:
+    build: .
+    container_name: resqnet_api
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+asyncpg://resqnet:resqnet_secret@db:5432/resqnet_db
+      SYNC_DATABASE_URL: postgresql://resqnet:resqnet_secret@db:5432/resqnet_db
+      JWT_SECRET: resqnet_docker_development_super_secret_key_32_bytes_min
+      JWT_REFRESH_SECRET: resqnet_docker_refresh_super_secret_key_32_bytes_min
+      ENVIRONMENT: development
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: >
+      sh -c "alembic upgrade head &&
+             uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+
+volumes:
+  postgis_data:

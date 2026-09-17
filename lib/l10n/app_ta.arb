@@ -1,0 +1,95 @@
+{
+  "@@locale": "ta",
+  "appName": "ResQnet",
+  "appTagline": "சமூக அவசர உதவி நெட்வொர்க்",
+  
+  "medicalEmergency": "மருத்துவ அவசரம்",
+  "fireEmergency": "தீ விபத்து அவசரம்",
+  "accidentEmergency": "விபத்து அவசரம்",
+  "nearbySafety": "அருகிலுள்ள பாதுகாப்பு",
+  "sos": "SOS",
+  "pressAndHoldSos": "SOS க்காக அழுத்திப் பிடிக்கவும்",
+  
+  "confirmMedicalTitle": "மருத்துவ அவசர எச்சரிக்கையை அனுப்பவா?",
+  "confirmFireTitle": "தீ விபத்து அவசர எச்சரிக்கையை அனுப்பவா?",
+  "confirmAccidentTitle": "விபத்து அவசர எச்சரிக்கையை அனுப்பவா?",
+  "confirmSosTitle": "SOS அவசர எச்சரிக்கையை அனுப்பவா?",
+  "confirmEmergencyMessage": "இது உங்கள் இருப்பிடத்திலிருந்து 1 கிமீ சுற்றளவில் உள்ள தகுதியான ResQnet உதவியாளர்களுக்கு தெரிவிக்கும்.",
+  
+  "cancel": "ரத்து செய்",
+  "sendAlert": "எச்சரிக்கை அனுப்பு",
+  
+  "medicalEmergencyActive": "மருத்துவ அவசரம் செயலில் உள்ளது",
+  "fireEmergencyActive": "தீ விபத்து அவசரம் செயலில் உள்ளது",
+  "accidentEmergencyActive": "விபத்து அவசரம் செயலில் உள்ளது",
+  "sosActive": "SOS செயலில் உள்ளது",
+  
+  "currentLocation": "தற்போதைய இருப்பிடம்",
+  "timeElapsed": "கடந்த நேரம்",
+  "helpersNotified": "அறிவிக்கப்பட்ட உதவியாளர்கள்",
+  "helpersResponding": "பதிலளிக்கும் உதவியாளர்கள்",
+  "helpersCountResponding": "{count} உதவியாளர்(கள்) பதிலளிக்கிறார்கள்",
+  
+  "updateLocation": "இருப்பிடத்தை புதுப்பி",
+  "markAsSafe": "நான் பாதுகாப்பாக இருக்கிறேன்",
+  "cancelAlert": "எச்சரிக்கையை ரத்து செய்",
+  "cancelSos": "SOS ரத்து செய்",
+  
+  "imComing": "நான் வருகிறேன்",
+  "openDirections": "வழிகளைத் திற",
+  "cantHelp": "உதவ முடியாது",
+  
+  "distanceAway": "தோராயமாக {distance} மீ தொலைவில்",
+  "reportedAgo": "{minutes} நிமிடங்களுக்கு முன்பு பதிவு செய்யப்பட்டது",
+  
+  "peopleNearby": "அருகிலுள்ள நபர்கள்",
+  "male": "ஆண்கள்",
+  "female": "பெண்கள்",
+  "other": "மற்றவர்கள்",
+  "totalResqnetUsers": "மொத்த ResQnet பயனர்கள்",
+  "radius500m": "500 மீட்டர்கள்",
+  "radius1km": "1 கிலோமீட்டர்",
+  
+  "availableToHelp": "உதவ தயாராக உள்ளேன்",
+  "availableToHelpDesc": "அவசர காலத்தில் அருகிலுள்ள சமூக உறுப்பினர்கள் உங்களுக்கு தெரிவிக்க அனுமதிக்கவும்.",
+  "locationStatus": "இருப்பிடம்",
+  "notificationStatus": "அறிவிப்புகள்",
+  "enabled": "இயக்கப்பட்டது",
+  "disabled": "முடக்கப்பட்டது",
+  
+  "navHome": "முகப்பு",
+  "navActivity": "செயல்பாடுகள்",
+  "navMap": "வரைபடம்",
+  "navProfile": "சுயவிவரம்",
+  
+  "login": "உள்நுழைக",
+  "signUp": "பதிவு செய்க",
+  "fullName": "முழு பெயர்",
+  "email": "மின்னஞ்சல்",
+  "password": "கடவுச்சொல்",
+  "confirmPassword": "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+  "gender": "பாலினம்",
+  "forgotPassword": "கடவுச்சொல்லை மறந்துவிட்டீர்களா?",
+  "createAccount": "கணக்கை உருவாக்கவும்",
+  "alreadyHaveAccount": "ஏற்கனவே கணக்கு உள்ளதா? உள்நுழைக",
+  "dontHaveAccount": "கணக்கு இல்லையா? பதிவு செய்க",
+  "agreeTerms": "விதிமுறைகள் மற்றும் தனியுரிமைக் கொள்கையை ஏற்கிறேன்",
+  
+  "communityNotice": "ResQnet என்பது அருகிலுள்ள குடிமக்களை இணைக்கும் ஒரு சமூக உதவி தளம். இது அதிகாரப்பூர்வ அவசர சேவைகளை மாற்றாது.",
+  "callOfficialServices": "அதிகாரப்பூர்வ சேவைகளை அழைக்கவும் (112)",
+  "privacyAssurance": "உங்கள் துல்லியமான இருப்பிடமும் அடையாளமும் பகிரப்படாது. கூட்டுத் தரவு மட்டுமே.",
+  
+  "demoMode": "டெமோ முறை",
+  "demoModeActive": "டெமோ முறை செயலில் உள்ளது",
+  "logout": "வெளியேறு",
+  "deleteAccount": "கணக்கை நீக்கு",
+  "theme": "தீம்",
+  "language": "மொழி",
+  "english": "English",
+  "tamil": "தமிழ்",
+  
+  "noInternet": "இணைய இணைப்பு இல்லை. நெட்வொர்க்கை சரிபார்க்கவும்.",
+  "locationPermissionRequired": "அவசர உதவிக்கு இருப்பிட அனுமதி தேவை.",
+  "notificationPermissionRequired": "உதவி எச்சரிக்கைகளைப் பெற அறிவிப்பு அனுமதி தேவை.",
+  "noHelpersNearby": "அருகில் தற்போது உதவியாளர்கள் இல்லை. அதிகாரப்பூர்வ அவசர சேவைகளை அழைக்கவும்."
+}

@@ -1,0 +1,116 @@
+{
+  "@@locale": "en",
+  "appName": "ResQnet",
+  "appTagline": "Community Emergency Assistance Network",
+  
+  "medicalEmergency": "Medical Emergency",
+  "fireEmergency": "Fire Emergency",
+  "accidentEmergency": "Accident Emergency",
+  "nearbySafety": "Nearby Safety",
+  "sos": "SOS",
+  "pressAndHoldSos": "PRESS AND HOLD FOR SOS",
+  
+  "confirmMedicalTitle": "Send Medical Emergency Alert?",
+  "confirmFireTitle": "Send Fire Emergency Alert?",
+  "confirmAccidentTitle": "Send Accident Emergency Alert?",
+  "confirmSosTitle": "Trigger SOS Emergency Alert?",
+  "confirmEmergencyMessage": "This will notify eligible ResQnet helpers within 1 km of your location.",
+  
+  "cancel": "Cancel",
+  "sendAlert": "Send Alert",
+  
+  "medicalEmergencyActive": "MEDICAL EMERGENCY ACTIVE",
+  "fireEmergencyActive": "FIRE EMERGENCY ACTIVE",
+  "accidentEmergencyActive": "ACCIDENT EMERGENCY ACTIVE",
+  "sosActive": "SOS ACTIVE",
+  
+  "currentLocation": "Current Location",
+  "timeElapsed": "Time Elapsed",
+  "helpersNotified": "Helpers Notified",
+  "helpersResponding": "Helpers Responding",
+  "helpersCountResponding": "{count, plural, =1{1 helper responding} other{{count} helpers responding}}",
+  "@helpersCountResponding": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  
+  "updateLocation": "UPDATE LOCATION",
+  "markAsSafe": "MARK AS SAFE",
+  "cancelAlert": "CANCEL ALERT",
+  "cancelSos": "CANCEL SOS",
+  
+  "imComing": "I'M COMING",
+  "openDirections": "OPEN DIRECTIONS",
+  "cantHelp": "CAN'T HELP",
+  
+  "distanceAway": "Approximately {distance} m away",
+  "@distanceAway": {
+    "placeholders": {
+      "distance": {
+        "type": "int"
+      }
+    }
+  },
+  "reportedAgo": "Reported {minutes} minutes ago",
+  "@reportedAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  
+  "peopleNearby": "PEOPLE NEARBY",
+  "male": "Male",
+  "female": "Female",
+  "other": "Other",
+  "totalResqnetUsers": "Total ResQnet Users",
+  "radius500m": "500 metres",
+  "radius1km": "1 kilometre",
+  
+  "availableToHelp": "Available to Help",
+  "availableToHelpDesc": "Allow nearby community members to notify you in an emergency.",
+  "locationStatus": "Location",
+  "notificationStatus": "Notifications",
+  "enabled": "Enabled",
+  "disabled": "Disabled",
+  
+  "navHome": "HOME",
+  "navActivity": "ACTIVITY",
+  "navMap": "MAP",
+  "navProfile": "PROFILE",
+  
+  "login": "Login",
+  "signUp": "Sign Up",
+  "fullName": "Full Name",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "gender": "Gender",
+  "forgotPassword": "Forgot Password?",
+  "createAccount": "Create Account",
+  "alreadyHaveAccount": "Already have an account? Login",
+  "dontHaveAccount": "Don't have an account? Sign Up",
+  "agreeTerms": "I agree to the Terms of Service & Privacy Policy",
+  
+  "communityNotice": "ResQnet is a community assistance platform connecting nearby citizens. It does not replace official emergency services.",
+  "callOfficialServices": "Call Official Services (112)",
+  "privacyAssurance": "Your exact location and identity are never publicly broadcast. Aggregate data only.",
+  
+  "demoMode": "Demo / Simulation Mode",
+  "demoModeActive": "DEMO MODE ACTIVE - Data is simulated",
+  "logout": "Logout",
+  "deleteAccount": "Delete Account",
+  "theme": "Theme",
+  "language": "Language",
+  "english": "English",
+  "tamil": "தமிழ்",
+  
+  "noInternet": "No internet connection. Please check your network.",
+  "locationPermissionRequired": "Location permission is required for emergency dispatch.",
+  "notificationPermissionRequired": "Notification permission is needed to receive emergency alerts.",
+  "noHelpersNearby": "No helpers are currently available nearby. Consider contacting official emergency services."
+}
